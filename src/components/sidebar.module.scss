@@ -1,0 +1,41 @@
+.sidebar {
+  position: sticky;
+  }
+
+  .title {
+    font-size: 38px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .subtitle {
+    font-size: 17px;
+    color: #5F5F5F;
+    font-weight: bold;
+  }
+
+  .nav {
+    margin-top: 40px;
+  }
+
+  .navItem {
+    display: flex;
+    color: #808080;
+    margin-bottom: 10px;
+    align-items: center;
+    gap: 5px;
+
+    &:hover {
+      color: #000;
+    }
+  }
+
+  .divider {
+    height: 1px;
+    background-color: #E5E5E5;
+    margin: 15px 0;
+    width: 60px;
+  }
+
+
