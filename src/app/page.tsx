@@ -1,6 +1,7 @@
 import Sidebar from '../components/Sidebar';
 import styles from './page.module.scss';
 import About from '../components/about';
+import CaseStudies from '@/components/caseStudies';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         </div>
         <div className={styles.mainGallery}>
           <About />
+          <CaseStudies />
         </div>
       </div>
     </main>
