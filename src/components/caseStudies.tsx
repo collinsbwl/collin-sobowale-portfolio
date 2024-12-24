@@ -1,4 +1,4 @@
-import styles from "../app/page.module.scss";
+import styles from "./caseStudies.module.scss";
 
 export default function CaseStudies() {
   return (

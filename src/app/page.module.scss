@@ -1,118 +1,18 @@
 .main {
   display: flex;
-  justify-content: flex-start;
   height: 100vh;
-  width: 100vh;
+  width: 100wh;
+  gap: 80px;
+  justify-content: center;
+  padding: 50px;
   background-color: white;
 }
 
-.content {
-  max-width: 1300px;
-  width: 100%;
-  padding: 120px 160px;
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  gap: 135px;
-} 
-
 .mainGallery {
-  width: 100%;
   position: relative;
 }
 
 .sidebar {
-  min-width: 250px;
-}
-
-/* About Line */
-.about {
-  width: 800px; 
-}
-
-.aboutTitle {
-  font-size: 18px;
-  font-weight: bold;
-  color: #5F5F5F; 
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-.aboutContent {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-
-  p {
-    color: #484848;
-  }
-
-  .greyP {
-    display: inline-flex;
-    gap: 5px;
-    color: #808080;
-    font-weight: bold;
-  }
-}
-
-.divider {
-  height: 1px;
-  background-color: #E5E5E5;
-  margin: 15px 0;
-  width: 100%;
-}
-
-
-/* Case Studies */
-.caseStudies {
-  margin-top: 50px;
-  width: 800px; 
-}
-
-.caseStudiesTitle {
-  font-size: 18px;
-  font-weight: bold;
-  color: #5F5F5F; 
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-.cardContainer {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.card {
-  width: 800px;
-  height: 300px;
-  background-color: #FAE3E3;
-  border-radius: 20px;
-}
-
-.cardContent {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  padding: 20px;
-}
-
-.cardImage {
-  width: 100%;
-  max-width: 360px;
-  margin-top: 20px;
-  box-shadow: 0px 2px 8px #484848;
-  border-radius: 6px;
-}
-
-.cardText {
-  width: 100%;
-  max-width: 360px;
-  margin-top: 50px;
-  margin-left: 30px;
-  h1 {
-    font-size: 40px;
-    color: #5F5F5F;
-    font-weight: bold;
-  }
+  position: relative;
+  width: 40wh;
 }

@@ -1,0 +1,38 @@
+
+/* About Line */
+.about {
+    position: relative;
+  }
+  
+  .aboutTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #5F5F5F; 
+    margin-bottom: 10px;
+  }
+  
+  .aboutContent {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  
+    p {
+      color: #484848;
+    }
+  
+    .greyP {
+      display: inline-flex;
+      gap: 5px;
+      color: #808080;
+      font-weight: bold;
+    }
+  }
+  
+  .divider {
+    height: 1px;
+    background-color: #E5E5E5;
+    margin: 15px 0;
+    width: 100%;
+  }
+  
+  
