@@ -8,14 +8,11 @@ export default function CaseStudies() {
       <div className={styles.cardContainer}>
         {/* Pinterest Case Study */}
         <div className={styles.card}>
-          {" "}
           {/* Multiple Cards */}
           <div className={styles.cardContent}>
             <div>
               <img
                 className={styles.cardImage}
-                width={360}
-                height={200}
                 src="/pinterest-icon.jpg"
                 alt="Pinterest UI Preview"
                 loading="lazy"

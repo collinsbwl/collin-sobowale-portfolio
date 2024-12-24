@@ -1,5 +1,6 @@
 .sidebar {
   position: sticky;
+  width: 20vw;
   padding-top: 20px;
   top: 50px;
   }
@@ -8,7 +9,7 @@
     font-size: 38px;
     color: black;
     font-weight: bold;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
   }
 
   .subtitle {
@@ -18,13 +19,13 @@
   }
 
   .nav {
-    margin-top: 40px;
+    padding-top: 40px;
   }
 
   .navItem {
     display: flex;
     color: #808080;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
     align-items: center;
     gap: 5px;
 
